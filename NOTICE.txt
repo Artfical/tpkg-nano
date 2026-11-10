@@ -1,0 +1,5 @@
+GNU nano 9.3 for tOS
+====================
+
+Built from the release tarball (nano-9.3.tar.xz beside this package), unmodified, with a static ncurses 6.5 (MIT; its source is beside this package) that reads the terminfo package. License: GPL-3.0 or later (LICENSE).
+glibc: its programs are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.

@@ -1,0 +1,26 @@
+{
+ "name": "nano",
+ "version": "9.3",
+ "license": "GPL-3.0+",
+ "homepage": "https://www.nano-editor.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "nano-9.3.tar.xz",
+  "ncurses-6.5.tar.gz"
+ ],
+ "desc": "GNU nano 9.3: a small, friendly text editor",
+ "file": "nano-9.3.tpkg",
+ "size": 716015,
+ "sha256": "88bc2fbfd292fd4409187ff7096dc5e9bdb38232c743ba54dd284438f2e8bb01",
+ "unpacked": 1535158,
+ "min_build": 616,
+ "depends": [
+  "terminfo"
+ ],
+ "commands": {
+  "nano": "bin/nano"
+ }
+}
